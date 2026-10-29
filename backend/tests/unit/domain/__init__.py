@@ -1,0 +1,1 @@
+"""Ticket domain unit tests."""
