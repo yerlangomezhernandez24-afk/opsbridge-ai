@@ -102,7 +102,8 @@ La revisión humana autorizó publicación pública bajo MIT el 2026-10-29. La p
 - Commit inicial publicado: `ffb34841e32611846f761c3bfb9869c8ae4133c6`.
 - GitHub Actions `40877986441`: estado `success`; jobs `Backend · Python 3.12` y `Frontend · Node 24` aprobados.
 - No se publicaron `.env`, credenciales, bases, sesiones, entornos virtuales, `node_modules`, builds, caches o ZIP.
-- La etiqueta anotada `v1.0.0-rc.1` queda condicionada a CI verde del commit documental de cierre.
+- La CI del cierre documental `40878218592` también concluyó con backend y frontend en `success`.
+- Etiqueta anotada `v1.0.0-rc.1` publicada sobre el commit final después de verificar su CI remota.
 
 ## 7. Sesión de culminación 2026-10-28
 

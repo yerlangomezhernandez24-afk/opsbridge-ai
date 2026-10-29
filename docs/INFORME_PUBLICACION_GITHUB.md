@@ -35,10 +35,11 @@
 - Job `Backend · Python 3.12`: `success`.
 - Job `Frontend · Node 24`: `success`.
 - URL de evidencia: `https://github.com/yerlangomezhernandez24-afk/opsbridge-ai/actions/runs/40877986441`.
+- CI del cierre documental: ejecución `40878218592`, también concluida con ambos jobs en `success`.
 - GitHub reconoció `LICENSE` como MIT y el repositorio se verificó como público.
 - Topics configurados: `python`, `fastapi`, `react`, `typescript`, `it-automation`, `helpdesk`, `rest-api`, `sqlite`, `pytest`, `playwright` y `portfolio-project`.
 
-La etiqueta anotada `v1.0.0-rc.1` se crea únicamente después de que el commit documental de cierre también finalice su CI en verde.
+La etiqueta anotada `v1.0.0-rc.1` se publica únicamente sobre el commit documental final después de que su GitHub Actions concluya en verde.
 
 ## Checklist
 
@@ -49,5 +50,5 @@ La etiqueta anotada `v1.0.0-rc.1` se crea únicamente después de que el commit 
 - [x] Cuenta GitHub autenticada confirmada como `yerlangomezhernandez24-afk`.
 - [x] Repositorio público creado y `main` publicada.
 - [x] CI remota concluida con éxito.
-- [ ] Etiqueta anotada `v1.0.0-rc.1` publicada sobre el commit verificado.
+- [x] Etiqueta anotada `v1.0.0-rc.1` publicada sobre el commit final verificado.
 - [x] Topics, licencia, rama y visibilidad comprobados externamente.
