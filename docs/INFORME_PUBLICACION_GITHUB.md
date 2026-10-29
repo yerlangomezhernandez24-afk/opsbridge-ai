@@ -26,9 +26,19 @@
 
 `.github/workflows/ci.yml` usa permisos `contents: read`. El job backend ejecuta Python 3.12, instalación bajo lock, Ruff, mypy, pytest y migraciones. El job frontend ejecuta pnpm 11.25.0/Node 24, instalación congelada, TypeScript, ESLint, Vitest y build. Playwright no se ejecuta remotamente porque las cuentas se crean de forma interactiva y no se publican contraseñas sintéticas como secretos de CI.
 
-## Resultado remoto
+## Resultado remoto verificado
 
-Pendiente hasta crear el repositorio, publicar `main` y observar GitHub Actions. Este apartado debe actualizarse exclusivamente con URLs, SHA y estados realmente verificados.
+- Repositorio público: `https://github.com/yerlangomezhernandez24-afk/opsbridge-ai`.
+- Rama publicada: `main`.
+- Commit inicial: `ffb34841e32611846f761c3bfb9869c8ae4133c6` (`feat: publish OpsBridge AI portfolio application`).
+- GitHub Actions: ejecución `40877986441` concluida con `success`.
+- Job `Backend · Python 3.12`: `success`.
+- Job `Frontend · Node 24`: `success`.
+- URL de evidencia: `https://github.com/yerlangomezhernandez24-afk/opsbridge-ai/actions/runs/40877986441`.
+- GitHub reconoció `LICENSE` como MIT y el repositorio se verificó como público.
+- Topics configurados: `python`, `fastapi`, `react`, `typescript`, `it-automation`, `helpdesk`, `rest-api`, `sqlite`, `pytest`, `playwright` y `portfolio-project`.
+
+La etiqueta anotada `v1.0.0-rc.1` se crea únicamente después de que el commit documental de cierre también finalice su CI en verde.
 
 ## Checklist
 
@@ -36,8 +46,8 @@ Pendiente hasta crear el repositorio, publicar `main` y observar GitHub Actions.
 - [x] MIT añadida y versiones alineadas.
 - [x] README español/inglés y backend sincronizados con el alcance real.
 - [x] Workflow CI con permisos mínimos.
-- [ ] Cuenta GitHub autenticada confirmada como `yerlangomezhernandez24-afk`.
-- [ ] Repositorio público creado y `main` publicada.
-- [ ] CI remota concluida con éxito.
+- [x] Cuenta GitHub autenticada confirmada como `yerlangomezhernandez24-afk`.
+- [x] Repositorio público creado y `main` publicada.
+- [x] CI remota concluida con éxito.
 - [ ] Etiqueta anotada `v1.0.0-rc.1` publicada sobre el commit verificado.
-- [ ] Topics, licencia, rama y visibilidad comprobados externamente.
+- [x] Topics, licencia, rama y visibilidad comprobados externamente.

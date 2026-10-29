@@ -94,7 +94,15 @@ La revisión humana autorizó publicación pública bajo MIT el 2026-10-29. La p
 - Licencia MIT añadida; README español/inglés y README backend sincronizados; workflow `.github/workflows/ci.yml` preparado con permisos `contents: read`.
 - Auditoría pública: 182 archivos candidatos, sin `.env`, bases, sesiones, tokens, entornos, `node_modules`, builds, ZIP o rutas personales.
 - Regresión previa: 215 pytest, Ruff/formato, mypy estricto, `pip check`, migraciones, 7 Vitest, TypeScript, ESLint, build, `pip-audit` y `pnpm audit` aprobados.
-- Informe: `docs/INFORME_PUBLICACION_GITHUB.md`. Falta completar hechos remotos después del push y verificar Actions antes de crear la etiqueta.
+- Informe: `docs/INFORME_PUBLICACION_GITHUB.md`; los hechos remotos y la verificación de Actions se completaron en la sección siguiente.
+
+## 12. Publicación GitHub verificada 2026-10-29
+
+- Repositorio público creado en `https://github.com/yerlangomezhernandez24-afk/opsbridge-ai`; rama predeterminada `main`, licencia MIT y topics técnicos configurados.
+- Commit inicial publicado: `ffb34841e32611846f761c3bfb9869c8ae4133c6`.
+- GitHub Actions `40877986441`: estado `success`; jobs `Backend · Python 3.12` y `Frontend · Node 24` aprobados.
+- No se publicaron `.env`, credenciales, bases, sesiones, entornos virtuales, `node_modules`, builds, caches o ZIP.
+- La etiqueta anotada `v1.0.0-rc.1` queda condicionada a CI verde del commit documental de cierre.
 
 ## 7. Sesión de culminación 2026-10-28
 
